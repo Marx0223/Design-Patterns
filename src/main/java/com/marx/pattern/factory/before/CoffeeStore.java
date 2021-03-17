@@ -20,7 +20,7 @@ public class CoffeeStore {
         }
         //加配料
         coffee.addMilk();
-        coffee.addsugar();
+        coffee.addSugar();
 
         return coffee;
     }

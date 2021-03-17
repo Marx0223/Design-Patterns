@@ -21,7 +21,7 @@ public class CoffeeStore {
         Coffee coffee = factory.createCoffee();
         //加配料
         coffee.addMilk();
-        coffee.addsugar();
+        coffee.addSugar();
         return coffee;
     }
 }
