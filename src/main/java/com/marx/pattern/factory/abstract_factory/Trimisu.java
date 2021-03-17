@@ -8,7 +8,8 @@ package com.marx.pattern.factory.abstract_factory;
  * @Author: Marx
  */
 public class Trimisu extends Dessert {
-    public void show() {
-        System.out.println("提拉米苏");
-    }
+	@Override
+	public void show() {
+		System.out.println("提拉米苏");
+	}
 }
